@@ -2147,11 +2147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/blounty/Projects/ArtAuction/ArtAuction.Android/ArtAuction.Android.csproj",
+      "projectUniqueName": "/Users/blounty/Dev/ArtAuction/ArtAuction.Android/ArtAuction.Android.csproj",
       "projectName": "ArtAuction.Android",
-      "projectPath": "/Users/blounty/Projects/ArtAuction/ArtAuction.Android/ArtAuction.Android.csproj",
+      "projectPath": "/Users/blounty/Dev/ArtAuction/ArtAuction.Android/ArtAuction.Android.csproj",
       "packagesPath": "/Users/blounty/.nuget/packages/",
-      "outputPath": "/Users/blounty/Projects/ArtAuction/ArtAuction.Android/obj/",
+      "outputPath": "/Users/blounty/Dev/ArtAuction/ArtAuction.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -2166,8 +2166,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "/Users/blounty/Projects/ArtAuction/ArtAuction/ArtAuction.csproj": {
-              "projectPath": "/Users/blounty/Projects/ArtAuction/ArtAuction/ArtAuction.csproj"
+            "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj": {
+              "projectPath": "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj"
             }
           }
         }

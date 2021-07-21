@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/blounty/Projects/ArtAuction/ArtAuction/ArtAuction.csproj": {}
+    "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj": {}
   },
   "projects": {
-    "/Users/blounty/Projects/ArtAuction/ArtAuction/ArtAuction.csproj": {
+    "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/blounty/Projects/ArtAuction/ArtAuction/ArtAuction.csproj",
+        "projectUniqueName": "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj",
         "projectName": "ArtAuction",
-        "projectPath": "/Users/blounty/Projects/ArtAuction/ArtAuction/ArtAuction.csproj",
+        "projectPath": "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj",
         "packagesPath": "/Users/blounty/.nuget/packages/",
-        "outputPath": "/Users/blounty/Projects/ArtAuction/ArtAuction/obj/",
+        "outputPath": "/Users/blounty/Dev/ArtAuction/ArtAuction/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/blounty/.config/NuGet/NuGet.Config"

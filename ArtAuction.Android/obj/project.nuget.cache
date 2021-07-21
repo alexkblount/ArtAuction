@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xs+OkgLyiX07//eUqSrX5X2jKhCTJsR7Fv0mDfs+gPYyYbvEyV/jA5PuSBpDByz2KyyxgNlUj0CzGjmDvk4d4g==",
+  "dgSpecHash": "XzKQzTSmoinOopeEYXS75OL/zpKH45SjkRtZe2yeaL5e3PLxgUsHa4PDLsUCrj7GyDBy+KC99/BgcRP6o9+6BQ==",
   "success": true,
-  "projectFilePath": "/Users/blounty/Projects/ArtAuction/ArtAuction.Android/ArtAuction.Android.csproj",
+  "projectFilePath": "/Users/blounty/Dev/ArtAuction/ArtAuction.Android/ArtAuction.Android.csproj",
   "expectedPackageFiles": [
     "/Users/blounty/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/blounty/.nuget/packages/xamarin.androidx.activity/1.1.0.5/xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OB4WGlcZADzzQQsmSODAVCdzHkr2g6oAZR5a4o6qsMEOzVEVQA2B1ZsEtNZ28AiXDYIZbJXNpEi3MvAvynhULg==",
+  "dgSpecHash": "tGdL/LnVE0WH0cSnvTUqw10qmUDOTtMW67Uo4HnObkSa/85eCGUEN5CjEFF209hFgILbK+0NfYBKFAq0hh8p4Q==",
   "success": true,
-  "projectFilePath": "/Users/blounty/Projects/ArtAuction/ArtAuction/ArtAuction.csproj",
+  "projectFilePath": "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj",
   "expectedPackageFiles": [
     "/Users/blounty/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/blounty/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",

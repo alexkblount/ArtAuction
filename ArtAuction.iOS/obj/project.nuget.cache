@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aFxFhO7JBl0XNLOBUoHyoxE3nQtBqehtHO2t3ta4I9T8vuGsXls1bHWqRaT/DFn3SqsKL14K5vOP+ihJKtpiVw==",
+  "dgSpecHash": "wQGZxAY/Gcqs9wJhBm2gaNvVwOdBUIIoGVuTk3stMS1AqZ4cTSbqQNajDcXz4Bz1Z5vEqzaezMFHmGuTpxoD3Q==",
   "success": true,
-  "projectFilePath": "/Users/blounty/Projects/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj",
+  "projectFilePath": "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/blounty/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/blounty/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",

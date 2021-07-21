@@ -996,11 +996,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/blounty/Projects/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj",
+      "projectUniqueName": "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj",
       "projectName": "ArtAuction.iOS",
-      "projectPath": "/Users/blounty/Projects/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj",
+      "projectPath": "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj",
       "packagesPath": "/Users/blounty/.nuget/packages/",
-      "outputPath": "/Users/blounty/Projects/ArtAuction/ArtAuction.iOS/obj/",
+      "outputPath": "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1015,8 +1015,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/blounty/Projects/ArtAuction/ArtAuction/ArtAuction.csproj": {
-              "projectPath": "/Users/blounty/Projects/ArtAuction/ArtAuction/ArtAuction.csproj"
+            "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj": {
+              "projectPath": "/Users/blounty/Dev/ArtAuction/ArtAuction/ArtAuction.csproj"
             }
           }
         }
