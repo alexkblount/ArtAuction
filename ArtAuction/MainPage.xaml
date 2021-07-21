@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True"
+             x:Class="ArtAuction.MainPage" BackgroundColor="#f7f4fa">
+    <Grid Padding="10,0,10,0" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="0.45*"/>
+        </Grid.RowDefinitions>
+         <Label Text="Live Auctions" Grid.Row="0" FontAttributes="Bold" FontSize="Header"/>
+
+        <ScrollView Orientation="Horizontal" Grid.Row="1">
+            <StackLayout x:Name="CategoriesCollection" Orientation="Horizontal" >
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="4,2,4,2" Padding="10,4,10,4" HasShadow="False">
+                            <Label Text="{Binding .}" TextColor="Green" FontAttributes="Bold" />
+                        </Frame>
+                     </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </StackLayout>
+        </ScrollView>
+      
+        <ScrollView Orientation="Horizontal" Grid.Row="2" Padding="10">
+            <StackLayout x:Name="FeaturedAuctions" Orientation="Horizontal">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding Name}" FontAttributes="Bold" HorizontalTextAlignment="Start" />
+                             <Frame Padding="1" Margin="4" BackgroundColor="Gray">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="0.9*"/>
+                                    <RowDefinition Height="0.13*"/>
+                                    <RowDefinition Height="0.05*"/>
+                                </Grid.RowDefinitions>
+                                 <Label Text="{Binding DaysLeft}" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                                 <Image Source="{Binding Image}" VerticalOptions="Fill" Aspect="AspectFill" Grid.RowSpan="3" />
+                                 <Frame Margin="4,2,4,2" Padding="10,4,10,4" HasShadow="False" BackgroundColor="#1bda5d" Grid.Row="1" HorizontalOptions="Center">
+                                    <Label Text="{Binding DaysLeft}" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                                 </Frame>
+                            </Grid>
+                        </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </StackLayout>
+        </ScrollView>
+
+        <Label Text="Top Sellers" Grid.Row="3" FontAttributes="Bold" FontSize="Header"/>
+        <CollectionView x:Name="SellersCollection" Grid.Row="4">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid HeightRequest="80">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.2*"/>
+                        <ColumnDefinition Width="0.7*"/>
+                        <ColumnDefinition Width="0.15*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.5*"/>
+                        <RowDefinition Height="0.5*"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Image Source="{Binding Image}" Grid.Column="0" Grid.RowSpan="2" Aspect="AspectFill" VerticalOptions="Center" HeightRequest="70" WidthRequest="70">
+                        <Image.Clip>
+                            <EllipseGeometry RadiusX="30" RadiusY="30" Center="30,30"/>
+                        </Image.Clip>
+                    </Image>
+
+                    <Label Text="{Binding Name}" Grid.Column="1" Grid.Row="0" FontAttributes="Bold" HorizontalOptions="Fill" VerticalTextAlignment="End"/>
+                        <Label Grid.Column="1" Grid.Row="1" Text="{Binding SoldValueBTC}" VerticalTextAlignment="Start" TextColor="Gray"/>
+
+                    <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Eo_circle_green_arrow-up.svg/1024px-Eo_circle_green_arrow-up.svg.png" Grid.Column="2" Grid.RowSpan="2"/>
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+</CollectionView>
+    </Grid>
+</ContentPage>
