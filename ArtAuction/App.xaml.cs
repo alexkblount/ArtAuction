@@ -1,6 +1,6 @@
 ﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+using Microsoft.Maui;
+using Microsoft.Maui.Controls;
 
 namespace ArtAuction
 {
@@ -9,20 +9,23 @@ namespace ArtAuction
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
         }
 
-        protected override void OnStart()
+        protected override Window CreateWindow(IActivationState activationState)
         {
+        	return new Microsoft.Maui.Controls.Window(new MainPage());
         }
 
-        protected override void OnSleep()
-        {
-        }
+		protected override void OnStart()
+		{
+		}
 
-        protected override void OnResume()
-        {
+		protected override void OnSleep()
+		{
+		}
+
+		protected override void OnResume()
+		{
         }
     }
 }

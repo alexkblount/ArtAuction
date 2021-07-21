@@ -1,12 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "wQGZxAY/Gcqs9wJhBm2gaNvVwOdBUIIoGVuTk3stMS1AqZ4cTSbqQNajDcXz4Bz1Z5vEqzaezMFHmGuTpxoD3Q==",
+  "dgSpecHash": "XfyIGCblALunN3HUCcmUnopcagnjPArhpMi0FjwEAJqKAPCcVekH7EkpZdePsKAZD2LID158rp+fC6h26LPr5w==",
   "success": true,
   "projectFilePath": "/Users/blounty/Dev/ArtAuction/ArtAuction.iOS/ArtAuction.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/blounty/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
-    "/Users/blounty/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "/Users/blounty/.nuget/packages/microsoft.maui.dependencies/6.0.100-preview.6.1003/microsoft.maui.dependencies.6.0.100-preview.6.1003.nupkg.sha512",
+    "/Users/blounty/.nuget/packages/microsoft.maui.graphics/6.0.100-preview.6.299/microsoft.maui.graphics.6.0.100-preview.6.299.nupkg.sha512",
+    "/Users/blounty/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/blounty/.nuget/packages/reloadify3000/1.0.6/reloadify3000.1.0.6.nupkg.sha512",
+    "/Users/blounty/.nuget/packages/microsoft.netcore.app.runtime.mono.iossimulator-x64/6.0.0-preview.6.21352.12/microsoft.netcore.app.runtime.mono.iossimulator-x64.6.0.0-preview.6.21352.12.nupkg.sha512",
+    "/Users/blounty/.nuget/packages/microsoft.maui.extensions/6.0.100-preview.6.1003/microsoft.maui.extensions.6.0.100-preview.6.1003.nupkg.sha512",
+    "/Users/blounty/.nuget/packages/microsoft.maui.core.runtime.ios/6.0.100-preview.6.1003/microsoft.maui.core.runtime.ios.6.0.100-preview.6.1003.nupkg.sha512",
+    "/Users/blounty/.nuget/packages/microsoft.maui.controls.runtime.ios/6.0.100-preview.6.1003/microsoft.maui.controls.runtime.ios.6.0.100-preview.6.1003.nupkg.sha512",
+    "/Users/blounty/.nuget/packages/microsoft.maui.essentials.runtime.ios/6.0.100-preview.6.1003/microsoft.maui.essentials.runtime.ios.6.0.100-preview.6.1003.nupkg.sha512",
+    "/Users/blounty/.nuget/packages/microsoft.ios.runtime.iossimulator-x64/15.0.100-preview.6.63/microsoft.ios.runtime.iossimulator-x64.15.0.100-preview.6.63.nupkg.sha512"
   ],
   "logs": []
 }

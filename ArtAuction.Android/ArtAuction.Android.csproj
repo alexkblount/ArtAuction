@@ -1,3 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <UseMaui>true</UseMaui>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+    <PropertyGroup>
+		<UseInterpreter Condition="$(TargetFramework.Contains('-android'))">True</UseInterpreter>
+	</PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArtAuction\ArtAuction.csproj">
+      <Project>{1DA2BE49-892A-4533-92BA-CDDA568441B8}</Project>
+      <Name>ArtAuction</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
+<!-- 
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
@@ -93,4 +110,4 @@
     </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
-</Project>
+</Project> -->
