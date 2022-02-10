@@ -4,24 +4,23 @@ using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
+using Microsoft.Maui.Essentials;
 
-namespace ArtAuction.Droid
+namespace ArtAuction.Droid;
+
+[Activity(Theme = "@style/Maui.SplashTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
+public class MainActivity : MauiAppCompatActivity
 {
-    [Activity(Label = "ArtAuction", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
-    public class MainActivity : MauiAppCompatActivity
+	protected override void OnCreate(Bundle savedInstanceState)
 	{
-		protected override void OnCreate(Bundle savedInstanceState)
-		{
-			// this.TabLayoutResource = Resource.Layout.Tabbar;
-			// this.ToolbarResource = Resource.Layout.Toolbar;
+		base.OnCreate(savedInstanceState);
+		Platform.Init(this, savedInstanceState);
+	}
 
-			base.OnCreate(savedInstanceState);
-		}
-		// public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
-		// {
-		// 	// Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+	public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
+	{
+		Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
-		// 	base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-		// }
+		base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 	}
 }

@@ -3,6 +3,7 @@
     <TargetFrameworks>net6.0-ios;net6.0-android;net6.0-maccatalyst</TargetFrameworks>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
     <UseMaui>True</UseMaui>
+	<ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 </Project>
 
